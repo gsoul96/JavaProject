@@ -1,0 +1,18 @@
+package gr.unipi.bookapi.services;
+
+public enum BookApiServiceOptionEnum {
+    ORDER_BY_RELEVANCE,
+    ORDE_BY_NEWEST,
+    PROJECTION_FULL,
+    PROJECTION_LITE,
+    PRINT_ALL,
+    PRINT_MAGAZINES,
+    PRINT_BOOKS,
+    PAGINATION,
+    FILTER_PARTIAL,
+    FILTER_FULL,
+    FILTER_FREE_EBOOKS,
+    FILTER_PAID_EBOOKS,
+    FILTER_EBOOKS,
+    NONE,
+}
